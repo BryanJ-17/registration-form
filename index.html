@@ -1,17 +1,27 @@
-<form>
- <label for="full student name">Full Student Name:</label>   
- <input type="text-align" name="full student name"/>
- <meta charset="utf-8">
+<!Doctype html>
+<html>
+  <head>
+  </head>
+  <body style="color black;
+ background-color: maroon; border: 2px solid blue;" >
+  <h1> Student Registration For Courses </h1>
+  <form>
+  <span> <label for="full student name">Full Student Name:</label>   
+  <input type="text-align" name="full student name"/> </span>
+  <meta charset="utf-8">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
-    <style>
+   <style>
       body {
         font-family: 'Tangerine', serif;
         font-size: 36px;
+		background color: 'black'
       }
     </style>
 <br />
-  
+ 
+ <div class="wrapper">
+ 
  <label for="first-name">First Name:</label>
  <input type="text-align" name="first-name"/>
 
@@ -27,7 +37,9 @@
 <br />
 
  <label for="date of birth">Date of Birth:</label>
- <input type="text-align" name="date of birth"/>
+ <input type="date" name="date of birth"/>
+
+</div>
 
 <br />
 
@@ -55,10 +67,12 @@
    <option value=" "> Please select one...</option>
    <option value="cbit">CBIT</option>
    <option value="cit">CIT</option>
- </select> 
-</form>
+ </select>   
  
  <br />
  
-  <p><input type="submit"
+  <p><input type= "submit"
   value="Submit"></p>
+  </form>
+  </body>
+  </html>
